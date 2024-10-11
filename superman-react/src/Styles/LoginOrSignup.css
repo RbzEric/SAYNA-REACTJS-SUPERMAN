@@ -1,0 +1,481 @@
+:root {
+    --yellow-color: #ffff00;
+    --yellow-light: #f8f184;
+    --blue-color: #19587d82;
+    --white-color: #ffffff;
+    --gray-color: #C4C4C4;
+    --gradient-white: #eddebf4b;
+    --gradient-red: #89000952;
+    --black-color: #000000;
+    --gradient-blue: #19587d40;
+
+
+}
+
+.login-signup {
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    height: auto;
+}
+
+.flexible {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.Auth-title {
+    border-bottom: 2px solid #ffffff;
+    width: 600px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'rajdhani';
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.inscri-form {
+    background: linear-gradient(#19587d86,#411a1a);
+    width: 600px;
+    border: 2px solid #19587D;
+    border-radius: 10px;
+    height: 900px;
+}
+
+.connexion {
+    text-decoration: none;
+    padding: 0 50px;
+    font-size: 32px;
+    border-bottom: 2px solid #19587D;
+    font-family: 'Adventure';
+    text-transform: uppercase;
+}
+
+.inscription {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 32px;
+    border-left: 2px solid #19587D;
+    border-top-left-radius: 10px;
+    font-family: 'Adventure';
+    text-transform: uppercase;
+
+}
+
+.form-identity {
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.form-identity label{
+    font-family: 'rajdhani';
+}
+.texte-value {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 500px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.confident {
+    width: 400px;
+    font-family: 'cantarell';
+    font-size: 16px;
+}
+
+.condition {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: 'cantarell';
+    font-size: 16px;
+}
+
+.valider {
+    margin: 0 auto;
+    width: 531px;
+    height: 80px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #07338C, #B4202E);
+    color: #ffffff;
+    font-family: 'rajdhani';
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.lign3 {
+    width: 300px;
+    background-color: #ffffff;
+    height: 1px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+}
+
+.lign4 {
+    width: 300px;
+    background-color: #ffffff;
+    height: 1px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.connectWith {
+    margin: 50px 0;
+    font-family: 'cantarell';
+}
+
+.switch-container {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    left: 400px;
+    top: -40px;
+}
+
+.switch-checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switch-label {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 34px;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.4s;
+}
+
+.switch-button {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    bottom: -4px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.4s;
+}
+
+.switch-checkbox:checked+.switch-label .switch-button {
+    transform: translateX(60px);
+    background-color: #B11313;
+}
+
+.commande2 {
+    background: linear-gradient(#022632, #00060a6e);
+    width: 500px;
+    margin-left: 50px;
+    margin-top: -100px;
+    padding-top: 50px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.commande-title2 {
+    padding-left: 20px;
+}
+
+.produit-com {
+    margin-left: -60px;
+}
+
+.promocode2 {
+    margin-left: 20px;
+    gap: 20px;
+}
+
+.text-code2 {
+    margin-right: 20px;
+    height: 50px;
+    width: 200px;
+    height: 30px;
+}
+
+.text-code2::placeholder {
+    color: black;
+    font-family: 'rajdani';
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.code-btn2 {
+    background: linear-gradient(to right, #19587D, #01d6eebc);
+    color: #ffffff;
+    font-weight: 400;
+    width: 150px;
+    height: 30px;
+    font-family: 'rajdani';
+
+}
+
+.login-form {
+    height: auto;
+    background: linear-gradient(#19587d86,#411a1a);
+    width: 600px;
+    border: 2px solid #19587D;
+    border-radius: 10px;
+}
+
+.lignhor {
+    margin: 20px;
+    width: 460px;
+    background-color: #ffffff;
+    opacity: 1;
+    height: 1px;
+}
+
+.whithoutAccount-title {
+    border-bottom: 1px solid #ffffff;
+    width: 600px;
+    padding-bottom: 10px;
+    font-family: 'Adventure';
+}
+
+.indentity {
+    width: 600px;
+}
+.indentity label{
+    font-family: 'cantarell';
+}
+
+.info-whithoutAccount {
+    font-family: 'cantarell';
+}
+
+.first-name {
+    float: right;
+    margin-top: -23px;
+    position: relative;
+}
+
+.first-name::placeholder {
+    padding-left: 20px;
+}
+
+.identityWithout {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 600px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.identityWithout::placeholder {
+    padding-left: 10px;
+}
+
+#identityWithout {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 290px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+#identityWithout::placeholder {
+    padding-left: 10px;
+}
+
+.postal {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 290px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.postal::placeholder {
+    padding-left: 10px;
+}
+
+.ville {
+    float: right;
+    margin-top: -94px;
+    position: relative;
+    color: #ffffff;
+}
+
+.ville::placeholder {
+    padding-left: 10px;
+}
+.checkbox-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+    margin-bottom: 10px;
+}
+
+.checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 100%;
+}
+
+.checkbox-container input:checked~.checkmark {
+    background-color: #B11313;
+    border: none;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkbox-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.sms{
+    font-size: 20px;
+    font-weight: 300;
+}
+.paiement{
+    background: linear-gradient(to right, #07338C, #B4202E);
+    width: 270px;
+    height: 52px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 100px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'rajdhani';
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+    .login-signup {
+        margin-left: 5%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        width: 90%;
+    }
+
+    .inscri-form,
+    .login-form {
+        width: 90%; 
+        height: auto; 
+        padding: 20px; 
+    }
+
+    .Auth-title,
+    .whithoutAccount-title {
+        width: 100%; 
+    }
+
+    .texte-value,
+    .identityWithout,
+    #identityWithout,
+    .postal {
+        width: 100%; 
+        height: 40px; 
+    }
+
+    .valider,
+    .code-btn2,
+    .paiement {
+        width: 100%; 
+        height: 50px; 
+        font-size: 18px; 
+    }
+
+    .connectWith {
+        margin: 20px 0; 
+        font-size: 18px; 
+    }
+
+    .switch-container {
+        left: 0; 
+        top: 0;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .login-signup {
+        margin-left: 0;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        width: 100%; 
+    }
+
+    .inscri-form,
+    .login-form {
+        width: 95%; 
+        height: auto; 
+        padding: 10px; 
+    }
+
+    .Auth-title,
+    .whithoutAccount-title {
+        width: 100%; 
+        font-size: 22px; 
+    }
+
+    .texte-value,
+    .identityWithout,
+    #identityWithout,
+    .postal {
+        width: 100%; 
+        height: 35px; 
+    }
+
+    .valider,
+    .code-btn2,
+    .paiement {
+        width: 100%; 
+        height: 45px; 
+        font-size: 16px; 
+    }
+
+    .connectWith {
+        margin: 10px 0; 
+        font-size: 16px; 
+    }
+
+    .checkbox-container {
+        font-size: 18px; 
+    }
+
+    .sms {
+        font-size: 18px; 
+    }
+}

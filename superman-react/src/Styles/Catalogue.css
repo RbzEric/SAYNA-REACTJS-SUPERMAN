@@ -1,0 +1,103 @@
+:root{
+    --yellow-color:#ffff00;
+    --yellow-light:#f8f184;
+    --blue-color:#19587d82;
+    --white-color:#ffffff;
+    --gray-color:#C4C4C4;
+    --gradient-white:#eddebf4b;
+    --gradient-red:#89000952;
+    --black-color:#000000;
+}
+.catalogue{
+    padding: 20px;
+}
+
+.product-sort{
+    background-color: transparent;
+    color: #ffffff;
+    border: none;
+}
+.opt{
+    color: black;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px; 
+    text-align: center;
+}
+.products li{
+    width: 300px;
+    border: 1px solid #ffffff;
+}
+.product-image{
+    width: 300px;
+}
+.product-name{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'cantarell';
+    font-weight: 100;
+    font-size: 18px;
+}
+.product-price{
+    text-align: center;
+}
+.old-price{
+    text-decoration: line-through;
+    padding-right: 8px;
+    font-size: 14px;
+    font-family: 'rajdani';
+    font-weight: 1;
+}
+.new-price{
+    font-weight: bold;
+    font-size: 18px;
+}
+.product-btn{
+    width: 300px;
+    height: 52px;
+    background:#07338C;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'rajdhani';
+    font-style: italic;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .products {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 20px; 
+    }
+
+    .product-image {
+        width: 100%; 
+    }
+
+    .product-btn {
+        width: 100%; 
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .products {
+        grid-template-columns: 1fr; 
+        gap: 15px; 
+    }
+
+    .product-image {
+        width: 100%; 
+    }
+
+    .product-btn {
+        width: 100%; 
+        font-size: 16px; 
+    }
+    
+}

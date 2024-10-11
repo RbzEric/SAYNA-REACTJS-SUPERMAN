@@ -1,0 +1,64 @@
+.heroContext{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background: linear-gradient(#000000,#212E3E);
+}
+.heroContext-title{
+    text-align: left;
+    font-family: 'rajdhani';
+}
+.personnage-superman{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.heroContext-texte{
+    text-align: justify;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .heroContext {
+        width: 90%; 
+        padding-left: 5%; 
+        padding-right: 5%;
+    }
+
+    .heroContext-title {
+        font-size: 24px; 
+    }
+
+    .personnage-superman {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .heroContext-texte {
+        font-size: 14px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .heroContext {
+        width: 95%; 
+        padding-left: 5%; 
+        padding-right: 5%; 
+    }
+
+    .heroContext-title {
+        font-size: 20px; 
+        text-align: center;
+    }
+
+    .personnage-superman {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 20px; 
+    }
+
+    .heroContext-texte {
+        font-size: 12px; 
+        text-align: left; 
+    }
+}

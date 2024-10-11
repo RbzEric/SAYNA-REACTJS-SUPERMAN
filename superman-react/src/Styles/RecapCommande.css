@@ -1,0 +1,224 @@
+.recap-body {
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    display: inline;
+}
+
+.nav-link .active {
+    text-decoration: underline;
+}
+
+.commande {
+    background: linear-gradient(#022632, #00060a6e);
+    width: 70%;
+    margin-left: 10%;
+    padding-top: 50px;
+    margin-top: 50px;
+    height: 700px;
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 20px;
+
+}
+
+.commade-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.commande-title {
+    padding-left: 80px;
+}
+
+.closecommande {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    right: 50px;
+}
+
+.list_commande {
+    width: 40%;
+    display: flex;
+}
+
+.commande-description {
+    display: block;
+    margin-top: 50px;
+}
+
+.promocode {
+    margin-left: 80px;
+    gap: 20px;
+}
+
+.text-code {
+    margin-right: 20px;
+    height: 50px;
+    width: 300px;
+    height: 50px;
+}
+
+.text-code::placeholder {
+    color: black;
+    font-family: 'rajdani';
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.code-btn {
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bolder;
+    border: 2px solid;
+    border-image: linear-gradient(to left, #03609a, #09b5ef)1;
+    width: 150px;
+    height: 50px;
+
+}
+
+.right-affich {
+    float: right;
+    position: relative;
+    right: 20px;
+}
+
+.comeback-shopping-btn {
+    margin-right: 20px;
+    width: 252px;
+    height: 52px;
+    background-color: transparent;
+    color: #ffffff;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #07338C, #B4202E);
+    margin-top: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'rajdhani';
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.checkbuy-btn {
+    width: 300px;
+    height: 50px;
+    background: linear-gradient(to right, #07338C, #B4202E);
+    margin-top: 100px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'rajdhani';
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 100px;
+
+}
+
+.total-brut {
+    padding-left: 40px;
+    padding-bottom: 10px;
+    font-family: 'rajdani';
+    font-weight: 500;
+}
+
+.total-net {
+    padding-left: 80px;
+    padding-bottom: 10px;
+    font-family: 'rajdani';
+}
+
+.lign-hor {
+    margin: 20px;
+    width: 860px;
+    background-color: #ffffff;
+    opacity: 1;
+    height: 1px;
+}
+
+@media (max-width: 768px) {
+    .recap-body {
+        margin-left: 5%; 
+        padding: 10px; 
+    }
+
+    .commande {
+        width: 90%; 
+        height: auto;
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .list_commande {
+        width: 100%; 
+        flex-direction: column; 
+    }
+
+    .closecommande {
+        right: 20px; 
+    }
+
+    .text-code {
+        width: 80%; 
+    }
+
+    .comeback-shopping-btn,
+    .checkbuy-btn {
+        width: 100%; 
+        margin-top: 20px;
+    }
+
+    .total-brut,
+    .total-net {
+        padding-left: 20px; 
+    }
+
+    .lign-hor {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .recap-body {
+        margin-left: 2%; 
+    }
+
+    .commande {
+        height: auto; 
+    }
+
+    .commande-title {
+        font-size: 20px; 
+        padding-left: 20px;
+    }
+
+    .text-code::placeholder {
+        font-size: 12px;
+    }
+
+    .code-btn,
+    .comeback-shopping-btn,
+    .checkbuy-btn {
+        font-size: 16px; 
+    }
+
+    .total-brut,
+    .total-net {
+        font-size: 14px; 
+    }
+}

@@ -1,0 +1,42 @@
+.batVssuperman{
+    background-image: url(../Assets/images/img11.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    width: 100%;
+}
+.overlay-BatSuper{
+    background-color: #212e3ee2;
+    height: 750px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 100px;
+   
+}
+
+/* Écrans de tablette */
+@media (max-width: 768px) {
+    .batVssuperman {
+        height: 500px; 
+    }
+    .overlay-BatSuper {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 50px;
+        height: 500px;
+    }
+}
+
+/* Écrans de téléphone */
+@media (max-width: 480px) {
+    .batVssuperman {
+        height: 300px; 
+    }
+    .overlay-BatSuper {
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top: 30px; 
+        height: 300px;
+    }
+}

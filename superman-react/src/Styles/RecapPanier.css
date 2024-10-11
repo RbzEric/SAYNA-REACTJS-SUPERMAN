@@ -1,0 +1,193 @@
+.panier-body {
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: auto;
+}
+.nav-link{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'rajdhani';
+}
+.nav-link.active{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.recap {
+    justify-content: left;
+    padding-top: 50px;
+    font-family: 'rajdhani';
+    font-style: italic;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.list-produit {
+    display: flex;
+    border: 2px solid #ffffff;
+    margin-bottom: 50px;
+    width: 70%;
+    margin-top: 100px;
+}
+
+.list-name {
+    padding-top: 80px;
+}
+
+
+.quantity {
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    gap: 30px;
+
+}
+
+.quantity-controls {
+    background-color: #ffffff;
+    color: black;
+}
+
+.quantity-btn {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 32px;
+    margin: 0 5px;
+}
+
+.quantity-value {
+    margin: 0 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.remove-btn {
+    height: 30px;
+    border-radius: 100%;
+    width: 30px;
+
+}
+
+.subtotal {
+    text-transform: uppercase;
+    float: right;
+    position: relative;
+    right: 400px;
+    font-family: 'rajdani';
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-top: -40px;
+}
+
+.action-buttons {
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'rajdhani';
+    font-size: 20px;
+    display: flex;
+    padding: 10px 0;
+    width: 700px;
+
+}
+
+.continue-shopping-btn {
+    margin-right: 20px;
+    width: 252px;
+    height: 52px;
+    background: linear-gradient(to right, #07338C, #B4202E);
+    border-radius: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'rajdhani';
+    font-style: italic;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+.checkout-btn {
+    width: 252px;
+    height: 52px;
+    background: linear-gradient(to right, #07338C, #B4202E);
+    border-radius: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'rajdhani';
+    font-style: italic;
+    font-size: 20px;
+    cursor: pointer;
+
+
+}
+
+@media (max-width: 768px) {
+    .panier-body {
+        margin-left: 5%; 
+        margin-top: 50px; 
+        margin-bottom: 50px; 
+        width: 90%; 
+    }
+
+    .list-produit {
+        flex-direction: column; 
+        width: 100%; 
+    }
+
+    .quantity {
+        padding-left: 20px; 
+        gap: 10px;
+    }
+
+    .subtotal {
+        float: none; 
+        text-align: center; 
+        position: static; 
+        right: auto; 
+    }
+
+    .action-buttons {
+        flex-direction: column; 
+        width: 100%; 
+    }
+
+    .continue-shopping-btn,
+    .checkout-btn {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+}
+
+@media (max-width: 480px) {
+    .recap {
+        font-size: 18px; 
+    }
+
+    .quantity-btn {
+        font-size: 24px; 
+    }
+
+    .quantity-value {
+        font-size: 24px; 
+    }
+
+    .subtotal {
+        font-size: 16px;
+    }
+
+    .action-buttons {
+        font-size: 16px; 
+    }
+
+    .continue-shopping-btn,
+    .checkout-btn {
+        font-size: 16px;
+    }
+}

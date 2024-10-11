@@ -1,0 +1,126 @@
+.paiement-page{
+    margin-left: 10%;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    height: auto;
+}
+.paiement-box{
+    border: 2px solid #ffffff;
+    width: 600px;
+    height: auto;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+.edit{
+    text-decoration: none;
+    color: #19587D;
+    font-size: 20px;
+    float: right;
+    position: relative;
+    right: 100px;
+    top: -50px;
+}
+.paidCard{
+    display: inline-flex;
+}
+.visa{
+    width: 30px;
+    height: 15px;
+    margin-right: 20px;
+}
+.code{
+    margin-top: -5px;
+}
+.dot-code{
+    padding-right: 5px;
+}
+.expiratio-date{
+    padding-left: 50px;
+}
+.submitPaid{
+    background: linear-gradient(to right, #051679, #b11313b1);
+    color: #ffffff;
+    margin-top: 100px;
+    padding: 20px;
+    width: 300px;
+    border-radius: 20px;
+    border-bottom:#b11313b1 1px solid;
+    border-left:#b11313b1 1px solid;
+    border-top: #19587D 1px solid;
+    border-right: #19587D 1px solid;
+    font-family: 'rajdani';
+    font-size: 20px;
+    margin-left: 200px;
+    
+}
+
+/* Écrans de tablette */
+@media (max-width: 768px) {
+    .paiement-page {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .paiement-box {
+        width: 100%;
+        margin-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .edit {
+        font-size: 16px;
+        right: 50px;
+        top: -30px;
+    }
+
+    .submitPaid {
+        margin-left: 0;
+        width: 100%;
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+/* Écrans de téléphone */
+@media (max-width: 480px) {
+    .paiement-page {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .paiement-box {
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 20px;
+    }
+
+    .edit {
+        font-size: 14px;
+        right: 20px;
+        top: -20px;
+    }
+
+    .paidCard {
+        display: block;
+    }
+
+    .visa {
+        width: 25px;
+        height: 15px;
+        margin-bottom: 10px;
+    }
+
+    .submitPaid {
+        width: 100%;
+        margin-top: 50px;
+        font-size: 16px;
+        padding: 15px;
+    }
+}

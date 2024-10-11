@@ -1,0 +1,81 @@
+.heroshop-content {
+    background-image: url(../Assets/images/img20.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1100px;
+    margin-top: -700px;
+    padding-left: 20%;
+}
+
+.heroshop-text {
+    padding-top: 350px;
+    padding-left: 10%;
+    font-size: 55px;
+    width: 850px;
+    font-family: 'Adventure';
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    margin-top: 250px;
+    font-weight: 100;
+}
+
+.flèche_down {
+    display: block;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.icon-panier{
+    float: right;
+    position: relative;
+    right: 100px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .heroshop-content {
+        height: 800px; 
+        padding-left: 5%;
+    }
+
+    .heroshop-text {
+        padding-top: 200px; 
+        font-size: 40px; 
+        width: 90%; 
+        margin-top: 150px; 
+    }
+
+    .icon-panier {
+        right: 50px; 
+    }
+
+    .flèche_down {
+        margin-top: 150px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .heroshop-content {
+        height: 600px;
+        padding-left: 5%; 
+
+    .heroshop-text {
+        padding-top: 150px; 
+        font-size: 30px; 
+        width: 95%;
+        margin-top: 100px; 
+        text-align: center; 
+    }
+
+    .icon-panier {
+        right: 20px; 
+    }
+
+    .flèche_down {
+        margin-top: 100px; 
+    }
+}
+
+}

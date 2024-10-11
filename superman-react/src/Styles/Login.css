@@ -1,0 +1,170 @@
+.login-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Assets/images/img19.png);
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    margin-top: -120px;
+    margin-bottom: 200px;
+
+}
+.login-overlay{
+    background:linear-gradient(#00000082,#212e3e8b);
+    width: 100%;
+}
+
+.connexion-texte{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 400px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+    height: 800px;
+    background:linear-gradient(to right,#032031,#b4202f2d);
+    box-shadow: 0 4px 8px black;
+
+}
+h1{
+    text-align: center;
+}
+.stitle{
+    text-align: center;
+}
+span a{
+    color: #ffffff;
+}
+.con-info{
+    background-color: #c4c4c494;
+    width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    height: 500px;
+}
+#con-email ,#con-mdp , #Name, #First-name{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 650px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+#con-email{
+    background: url('../Assets/icones/icone_4.png') no-repeat left center ;
+}
+#con-email::placeholder{
+    padding-left: 50px;
+}
+#con-mdp{
+    background:url('../Assets/icones/icone_5.png') no-repeat left center,url('../Assets/icones/icone_6.png') no-repeat left center ;
+}
+#con-mdp::placeholder{
+    padding-left: 50px;
+}
+.forgot-mdp a{
+    color:#ffffff;
+}
+.lign1{
+    background-color: #ffffff;
+    width: 400px;
+    height: 1px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+}
+.lign2{
+    background-color: #ffffff;
+    width: 400px;
+    height: 1px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+}
+.con-btn{
+    margin: 0 auto;
+    width: 531px;
+    height: 80px;
+    border-radius: 5px;
+    background:linear-gradient(to right,#07338C,#B4202E);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.con-icon{
+    padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        height: 800px; 
+        margin-top: -80px; 
+    }
+
+    .connexion-texte {
+        width: 85%; 
+        margin-top: 150px; 
+        height: auto; 
+        padding: 20px; 
+    }
+
+    #con-email,
+    #con-mdp,
+    #Name,
+    #First-name {
+        width: 90%; 
+    }
+
+    .con-btn {
+        width: 90%; 
+    }
+
+    .lign1,
+    .lign2 {
+        width: 80%; 
+        margin-top: -10px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .login-container {
+        height: 600px; 
+        margin-top: -50px; 
+    }
+
+    .connexion-texte {
+        width: 95%; 
+        margin-top: 100px; 
+        height: auto; 
+        padding: 10px;
+    }
+
+    #con-email,
+    #con-mdp,
+    #Name,
+    #First-name {
+        width: 100%; 
+        height: 45px; 
+    }
+
+    .con-btn {
+        width: 100%; 
+        height: 60px;
+        font-size: 20px; 
+    }
+
+    .lign1,
+    .lign2 {
+        width: 100%; 
+    }
+}

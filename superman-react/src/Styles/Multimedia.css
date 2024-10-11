@@ -1,0 +1,142 @@
+.multimedia {
+    width: 80%;
+    padding: 0 10%;
+    margin-top: -350px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    gap: 100px;
+    margin-top: 150px;
+}
+
+.arrow-left,
+.arrow-right {
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+}
+.arrow-left{
+    position: relative;
+    left: 80px;
+}
+
+.content-box {
+    display: flex;
+    background: linear-gradient(to right,#7C7675,#19587dce);
+    color: white;
+    border-radius: 10px;
+    width: 600px;
+    margin-left: 20%;
+}
+
+.movie-poster {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.content-details h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.content-details h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.content-details p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.content-details span {
+    color: yellow;
+    font-weight: bold;
+}
+.video{
+    background-image: url(../Assets/images/img15.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+}
+.icon-play{
+   margin: 0 auto;
+   width: 100px;
+   padding-top: 150px;
+   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .multimedia {
+        width: 90%; 
+        padding: 0 5%; 
+        margin-top: -150px; 
+    }
+
+    .content-container {
+        flex-direction: column; 
+        align-items: center;
+        width: 100%; 
+        gap: 50px; 
+        margin-top: 100px; 
+    }
+
+    .content-box {
+        width: 100%; 
+        margin-left: 0; 
+    }
+
+    .movie-poster {
+        width: 100px; 
+        max-height: 150px; 
+    }
+
+    .icon-play {
+        width: 80px; 
+        padding-top: 100px; 
+    }
+
+    .account-header {
+        height: 500px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .monCompte-intro {
+        font-size: 36px; 
+        padding-left: 10%; 
+        width: 90%; 
+    }
+
+    .account-texte {
+        margin-left: 0; 
+        justify-content: center; 
+    }
+
+    .list-account {
+        margin-left: 0; 
+    }
+
+    .list-account li {
+        font-size: 18px; 
+    }
+
+    .popup-texte {
+        font-size: 36px; 
+        width: 80%; 
+        left: 0; 
+        transform: translateX(50%); 
+    }
+
+    .closePopup {
+        right: 10px; 
+    }
+}

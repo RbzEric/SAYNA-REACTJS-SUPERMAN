@@ -1,0 +1,139 @@
+.whithoutAccount-title {
+    margin-top: 50px;
+}  
+  .delivery-options {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .delivery-option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .delivery-option input[type="radio"] {
+    position: absolute;
+    opacity: 0; /* Masque complètement le bouton radio */
+    cursor: pointer;
+  }
+  
+  .delivery-option input[type="radio"]:checked + .delivery-details::before {
+    background-color: #007bff; /* Couleur du bouton radio sélectionné */
+    border: none;
+  }
+  
+  .delivery-option .delivery-details::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #007bff; /* Couleur du cercle non sélectionné */
+    background-color: transparent; /* Transparent par défaut */
+  }
+  
+  .delivery-details {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .delivery-details img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .delivery-info h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    font-family: 'rajdani';
+  }
+  
+  .delivery-info p {
+    margin: 0;
+    font-family: 'rajdani';
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+  .CVV{
+    float: right;
+    margin-top: -94px;
+    position: relative;
+    color: #ffffff;
+}
+.sms2{
+    font-size: 0.7em;
+    font-family: 'rajdani';
+}
+
+/* Tablettes */
+@media (max-width: 768px) {
+  .whithoutAccount-title {
+      margin-top: 30px; 
+  }
+  .delivery-option {
+      gap: 10px; 
+      padding-left: 20px; 
+  }
+  .delivery-option input[type="radio"] {
+      width: 15px;
+      height: 15px;
+  }
+  .delivery-details img {
+      width: 30px; 
+      height: 30px;
+  }
+  .delivery-info h4 {
+      font-size: 1rem; 
+  }
+  .delivery-info p {
+      font-size: 0.8rem; 
+  }
+  .CVV {
+      float: none;
+      margin-top: 10px;
+      text-align: center;
+  }
+}
+
+/* Téléphones */
+@media (max-width: 480px) {
+  .whithoutAccount-title {
+      margin-top: 20px;
+      font-size: 1.2em; 
+  }
+  .delivery-options {
+      gap: 15px; 
+  }
+  .delivery-option {
+      flex-direction: column; 
+      gap: 10px;
+      padding-left: 15px;
+      margin-bottom: 15px;
+  }
+  .delivery-details img {
+      width: 25px;
+      height: 25px; 
+  }
+  .delivery-info h4 {
+      font-size: 0.9rem;
+  }
+  .delivery-info p {
+      font-size: 0.7rem;
+  }
+  .CVV {
+      float: none;
+      margin-top: 10px;
+      position: relative;
+      text-align: center;
+  }
+}

@@ -1,0 +1,75 @@
+.HeroHome{
+    width: 100%;
+    background-image: url(../Assets/images/img1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    margin-top: -550px;
+}
+.intro{
+    margin-left: 20%;
+    padding-top: 15%;
+}
+.intro-title{
+    margin-left: 25%;
+    margin-top: -120px;
+    width: 400px;  
+}
+.hero-intro{
+    font-size: 90px;
+    font-family: 'Adventure';
+}
+.flèche_down{
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+    .HeroHome {
+        height: 600px; 
+        margin-top: -300px; 
+    }
+
+    .intro {
+        margin-left: 10%; 
+        padding-top: 20%; 
+    }
+
+    .intro-title {
+        margin-left: 10%; 
+        margin-top: -80px; 
+        width: 90%; 
+    }
+
+    .hero-intro {
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 480px) {
+    .HeroHome {
+        height: 500px; 
+        margin-top: -200px; 
+    }
+
+    .intro {
+        margin-left: 5%; 
+        padding-top: 25%; 
+    }
+
+    .intro-title {
+        margin-left: 0; 
+        margin-top: -40px; 
+        width: 100%; 
+    }
+
+    .hero-intro {
+        font-size: 50px; 
+    }
+
+    .flèche_down {
+        width: 30px; 
+    }
+}

@@ -1,0 +1,221 @@
+.signup-contaire{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Assets/images/img19.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+    margin-top: -120px;
+    margin-bottom: 400px;
+
+}
+.signup-overlay{
+    background:linear-gradient(#00000082,#212e3e8b);
+    width: 100%;
+}
+
+.inscription-texte{
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 700px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+    height: auto;
+    background:linear-gradient(to right,#032031,#b4202f2d);
+    box-shadow: 0 8px 12px  black;
+    padding-top: 50px;
+
+}
+h1{
+    text-align: center;
+}
+.stitle{
+    text-align: center;
+}
+span a{
+    color: #ffffff;
+}
+.inscri-info{
+    background-color: #c4c4c494;
+    width: 700px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    height: auto;
+}
+#inscri-email ,.inscri-password{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 650px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+
+.inscri-password{
+    background:url('../Assets/icones/icone_5.png') no-repeat left center,url('../Assets/icones/icone_6.png') no-repeat left center ;
+}
+#Name::placeholder{
+    padding-left: 50px;
+}
+#First-name::placeholder{
+    padding-left: 50px;
+}
+#inscri-email::placeholder{
+    padding-left: 50px;
+}
+.inscri-password::placeholder{
+    padding-left: 50px;
+}
+.inscri-condition {
+    color:#ffffff;
+    width: 350px;
+}
+.lign1{
+    background-color: #ffffff;
+    width: 400px;
+    height: 1px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+}
+.lign2{
+    background-color: #ffffff;
+    width: 400px;
+    height: 1px;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+}
+.btn{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 531px;
+    height: 80px;
+    border-radius: 5px;
+    background:linear-gradient(to right,#07338C,#B4202E);
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    justify-content: center;
+}
+
+.con-icon{
+    padding-right: 20px;
+}
+.switchSignup-container {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    left: 550px;
+    top: -130px;
+}
+
+.switchSignup-checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.switchSignup-label {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 34px;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.4s;
+}
+
+.switchSignup-button {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 40px;
+    bottom: -4px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.4s;
+}
+
+.switchSignup-checkbox:checked+.switchSignup-label .switchSignup-button {
+    transform: translateX(60px);
+    background-color: #B11313;
+}
+
+@media (max-width: 768px) {
+    .signup-contaire {
+        height: auto;
+        margin-top: -60px; 
+        margin-bottom: 200px; 
+        padding: 20px; 
+    }
+
+    .inscription-texte {
+        width: 90%; 
+        margin-top: 50px;
+        padding: 20px; 
+    }
+
+    #inscri-email,
+    .inscri-password {
+        width: 100%; 
+        height: 40px; 
+    }
+
+    .btn {
+        width: 100%; 
+        height: 60px;
+        font-size: 20px; 
+    }
+
+    .switchSignup-container {
+        left: 40%;
+        top: -100px; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .signup-contaire {
+        height: auto; 
+        margin-top: -40px; 
+    }
+
+    .inscription-texte {
+        width: 100%; 
+        margin-top: 20px; 
+        padding: 10px; 
+    }
+
+    .inscri-info {
+        width: 90%; 
+        padding: 20px; 
+    }
+
+    #inscri-email,
+    .inscri-password {
+        width: 100%; 
+        height: 40px;
+    }
+
+    .btn {
+        width: 100%; 
+        height: 50px; 
+        font-size: 18px; 
+    }
+
+    .switchSignup-container {
+        left: 30%;
+        top: -80px; 
+    }
+}

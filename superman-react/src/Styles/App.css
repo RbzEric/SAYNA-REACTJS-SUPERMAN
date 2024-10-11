@@ -1,0 +1,12 @@
+body{
+    background:linear-gradient(#000000,#212E3E);
+    color: #ffffff;
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+@font-face {
+    font-family: 'Adventure';
+    src: url(../Assets/police/Advent_Pro/static/AdventPro-BlackItalic.ttf);
+}

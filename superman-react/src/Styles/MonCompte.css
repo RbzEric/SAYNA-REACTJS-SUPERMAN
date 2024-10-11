@@ -1,0 +1,181 @@
+.account-header{
+    background-image: url('../Assets/images/img37.png');
+    background-position: center;
+    background-size: cover;
+    height: 1000px;
+    color: #ffffff;
+    opacity: 1;
+    margin: 0 auto;
+    margin-top: -150px;
+ }
+ .monCompte-intro{
+     padding-top: 300px;
+     padding-left: 20%;
+     font-size: 48px;
+     text-transform: uppercase;
+     width: 50%;
+     text-align: start;
+     font-family: 'Adventure';
+ }
+ .account-texte{
+     display: flex;
+     margin-left: -200px;
+     justify-content:center;
+ }
+ .list-account{
+     margin-left: -40px; 
+     margin-bottom: 50px;   
+ }
+ .list-account li{
+     padding-top: 20px;
+     font-size: 20px;
+ }
+ .list-account .un{
+     text-decoration: underline;
+ }
+ .info{
+     text-decoration: underline;
+ }
+ 
+ .line{
+     width: 1px;
+     height: 400px;
+     background-color:#ffffff;
+     margin-bottom: 50px;
+     margin-left: 50px;
+     margin-right: 50px;
+ }
+ .info{
+     text-decoration: none;
+     padding-bottom: 20px;
+     border-bottom: 2px solid #ffffff;
+     width: 500px;
+ }
+ .account-btn{
+     width: 252px;
+     text-transform: uppercase;
+     height: 52px;
+     background:linear-gradient(to right,#07338C,#B4202E);
+     color: #ffffff;
+     font-weight: bold;
+     cursor: pointer;
+     font-size: 20px;
+     border: none;
+     text-align: center;
+     justify-content: center;
+     border-radius: 20px;
+     font-family: 'rajdhani';
+     font-style: italic;
+ }
+ .informations{
+     margin-bottom: 50px;
+ }
+ #con{
+     background-color:none;
+     border: none;
+     padding: 10px 0;
+ }
+ #con::placeholder{
+     color: #ffffff;
+     background-color: transparent;
+ }
+ #com{
+     background-color: transparent;
+     border: 1px solid #ffffff;
+     color: #ffffff;
+ }
+ .note{
+     border: none;
+     background-color: transparent;
+     width: 500px;
+     height: 50px;
+ }
+ .note::placeholder{
+     color: #ffffff;
+     width: 500px;
+     height: 50px;
+ }
+ #comId{
+     background-color:transparent;
+     border: none;
+ }
+ .newsletter-text{
+    font-family: 'cantarell';
+    font-size: 16px;
+ }
+ .checkbox-group ul li{
+    list-style: none;
+ }
+ .checkbox-group li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.checkbox-group input[type="checkbox"]:checked {
+    background-color: red;
+}
+
+.checkbox-group label {
+    flex-grow: 1;
+    font-family: 'rajdhani';
+}
+
+.checkbox-group input[type="checkbox"] {
+    appearance: none;
+    background-color: transparent;
+    border-radius: 3px;
+    width: 20px; 
+    height: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 100%;
+    margin-right: 10px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .checkbox-group input[type="checkbox"]:checked {
+    background-color: #19587D;
+    border: 2px solid #ffffff;
+  }
+ .popup-content{
+     background:linear-gradient(to right,#042134,#b4202f32);
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     width: 65%;
+     height: 70%;
+     margin: 0 auto;
+     margin-top: 100px;
+     z-index: 1001;
+     align-content: center;
+ }
+ .popup-overlay{
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     justify-content: center;
+     align-items: center;
+     z-index:1000 ;
+     background-color: rgba(0,0,0,1);
+     text-align: center;
+     
+ }
+ .popup-texte{
+     font-size: 48px;
+     width: 50%;
+     position: relative;
+     left: 300px;
+ }
+ .closePopup{
+    float: right;
+    position: relative;
+    right: 20px;
+    margin-top: -70px;
+    cursor: pointer;
+ }
+ 
+ 

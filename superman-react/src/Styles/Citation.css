@@ -1,0 +1,46 @@
+.citation-container{
+    margin-top: 150px;
+    padding-top: 100px;
+    width: 60%;
+    margin-left: 300px;
+    margin-bottom: 200px;
+}
+.quote-container{
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    color: #ffffff;
+}
+.quote-left{
+    margin-top: 10px;
+}
+.quote-right{
+    float: right;
+}
+.quote-text{
+    font-size: 20px;
+    width: 500px;
+    margin-left: 200px;
+}
+.quote-subtext{
+    font-size: 20px;
+}
+.quote.author{
+    font-size: 18px;
+
+}
+.pagination-dots{
+    margin-top: 20px;
+}
+.dot{
+    height: 5px;
+    width: 5px;
+    margin: 0 5px;
+    display: inline-block;
+    border-radius: 100%;
+    background-color: transparent;
+    border: 1px solid #19587D;
+}
+.dot.active{
+    background-color: #19587D;
+}

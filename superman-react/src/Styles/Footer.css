@@ -1,0 +1,16 @@
+.footerItem{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.texte-footer{
+    display: flex;
+    margin-left: 300px;
+    padding-bottom: 20px;
+}
+.icon #reseau{
+    padding: 10px;
+}
+.icon{
+    margin-left: 450px;
+}
