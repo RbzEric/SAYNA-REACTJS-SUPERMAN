@@ -1,11 +1,14 @@
 import '../Styles/FicheProduit.css'
 import React, { useEffect, useState } from "react";
-import { useParams, NavLink , useNavigate } from "react-router-dom";
+import { useParams, NavLink, useNavigate } from "react-router-dom";
 import { db } from "./Config";
 import { doc, getDoc, collection, getDocs } from "firebase/firestore";
 import StarIcon1 from '../../src/Assets/icones/icone_2.png';
 import StarIcon2 from '../../src/Assets/icones/icone_3.png';
 import PanierIcon from '../../src/Assets/icones/icone_1.png';
+import ProductCarousel from './ProductCarousel';
+
+
 
 
 
@@ -22,7 +25,7 @@ const FicheProduit = () => {
     };
 
     const handleCheckOut = () =>
-    navigate('/recapPanier');
+        navigate('/recapPanier');
 
     useEffect(() => {
         const fetchProduct = async () => {
@@ -50,13 +53,13 @@ const FicheProduit = () => {
 
     return (
         <div className="ficheProducts">
-                  <img src={PanierIcon} alt="PanierIcon" className='icon-panier2' onClick={handleCheckOut} />
+            <img src={PanierIcon} alt="PanierIcon" className='icon-panier2' onClick={handleCheckOut} />
             {product ? (
                 <div className="product-container">
                     <div className="breadcrumb">
                         <NavLink to="/eshop">E-shop</NavLink> / <NavLink to="/recapPanier">Panier</NavLink>
                     </div>
-                
+
                     <div className="product-details">
                         <div className="product-images">
                             <img src={product.ProductImage} alt={product.ProductName} className="main-image" />
@@ -161,31 +164,14 @@ const FicheProduit = () => {
                     </div>
                     <hr />
                     <br /><br /><br /><br /><br /><br />
-                    <div className='pagination'>
+                    <div className='pagination-product'>
                         <div class="triangle-left"></div>
                         <p className='page_number'><NavLink to="#">1</NavLink>- <NavLink to="#">2</NavLink></p>
                         <div class="triangle-right"></div>
                     </div>
-
-                    {/* <div className="product-similaire">
-                        <h1 className='similaire'>Produits similaires</h1>
-                        <div>
-                            <div class="triangle-left"></div>
-                            <ul className='products'>
-                                {products.map((Produit) => (
-                                    <li key={Produit.id}>
-                                        <Link to={`/produit/${Produit.id}`}><img src={Produit.ProductImage} alt={Produit.ProductName} /></Link>
-                                        <p className='product-name'>{Produit.ProductName}</p>
-                                        <p className='product-price'><span className='old-price'>{Produit.oldPrice}£</span><span className='new-price'>{Produit.newPrice}£</span></p>
-                                    </li>
-                                ))}
-
-                            </ul>
-
-                            <div class="triangle-right"></div>
-                        </div>
-
-                    </div> */}
+                    <div>
+                        <ProductCarousel></ProductCarousel>
+                    </div>
                 </div>
             ) : (
                 <p>Chargement...</p>
