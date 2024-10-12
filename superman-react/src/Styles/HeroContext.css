@@ -16,6 +16,7 @@
 .heroContext-texte{
     text-align: justify;
     font-size: 16px;
+    font-family: 'Cantarell';
 }
 
 @media (max-width: 768px) {
