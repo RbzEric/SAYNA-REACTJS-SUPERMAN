@@ -42,11 +42,13 @@
 .content-details h3 {
     font-size: 16px;
     margin-bottom: 5px;
+    font-family: 'rajdhani';
 }
 
 .content-details h2 {
     font-size: 22px;
     margin-bottom: 10px;
+    font-family: 'rajdhani'
 }
 
 .content-details p {
@@ -57,6 +59,10 @@
 .content-details span {
     color: yellow;
     font-weight: bold;
+}
+.contentList-text{
+    font-family: 'Cantarell';
+    font-size: 8px;
 }
 .video{
     background-image: url(../Assets/images/img15.png);
