@@ -4,6 +4,7 @@
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 100px;
+    font-family: 'rajdhani';
     
 }
 .icon-panier2{
@@ -191,10 +192,13 @@ hr {
 .page_number{
     color: #ffffff;
     text-decoration: none;
+    margin-top: -1px;
+    
 }
-.pagination{
+.pagination-product{
     position: relative;
     left: 1000px;
+    display: flex;
 }
 .similaire{
     text-align: left;
